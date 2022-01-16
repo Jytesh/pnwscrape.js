@@ -1,0 +1,22 @@
+{
+  "include": ["./src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "CommonJS",
+    "lib": ["es2021", 
+      "DOM"],
+    "outDir": "./build",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "checkJs": true,
+    "allowJs": true,
+    "skipLibCheck": false,
+    "baseUrl": ".",
+  }
+}
